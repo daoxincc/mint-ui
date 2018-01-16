@@ -94,11 +94,11 @@ const PopupManager = {
       removeClass(modalDom, 'v-modal-enter');
     }, 200);
 
-    if (dom && dom.parentNode && dom.parentNode.nodeType !== 11) {
-      dom.parentNode.appendChild(modalDom);
-    } else {
+    //if (dom && dom.parentNode && dom.parentNode.nodeType !== 11) {
+    //  dom.parentNode.appendChild(modalDom);
+    //} else {
       document.body.appendChild(modalDom);
-    }
+    //}
 
     if (zIndex) {
       modalDom.style.zIndex = zIndex;
