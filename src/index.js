@@ -5,7 +5,7 @@ import CellSwipe from '../packages/cell-swipe';
 import Field from '../packages/field';
 import Badge from '../packages/badge';
 import Switch from '../packages/switch';
-import Spinner from '../packages/spinner';
+//import Spinner from '../packages/spinner';
 import TabItem from '../packages/tab-item';
 import TabContainerItem from '../packages/tab-container-item';
 import TabContainer from '../packages/tab-container';
@@ -45,7 +45,7 @@ const install = function(Vue, config = {}) {
   Vue.component(Field.name, Field);
   Vue.component(Badge.name, Badge);
   Vue.component(Switch.name, Switch);
-  Vue.component(Spinner.name, Spinner);
+  //Vue.component(Spinner.name, Spinner);
   Vue.component(TabItem.name, TabItem);
   Vue.component(TabContainerItem.name, TabContainerItem);
   Vue.component(TabContainer.name, TabContainer);
